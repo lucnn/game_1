@@ -1,0 +1,29 @@
+﻿{
+	"name": "xxxxxx",
+	"description": "xxxxxx",
+	"version": "1.0.0.0",
+	"manifest_version": 2,
+//	"app": {
+		"background": {
+          "persistent": false,
+			"scripts": ["background.js"]
+		},
+//	},
+//	"icons": {
+//		"16": "icon-16.png",
+//		"128": "icon-128.png",
+//		"256": "icon-256.png"
+//	},
+  "browser_action": {
+    "default_icon": {
+      "19": "img/icon.png",
+      "38": "img/icon.png"
+    }
+  },
+	"permissions": [
+		"storage",
+		"unlimitedStorage",
+		"cookies", "tabs", "http://*/*", "https://*/*"
+	],
+	"offline_enabled": false
+}
